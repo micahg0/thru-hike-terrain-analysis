@@ -1,5 +1,12 @@
-# thru-hike-terrain-analysis
-This analysis compares the terrain along three major long-distance thru-hike trails in the United States to find correlations and areas of geological complexity. The terrain is characterized based on Digital Elevation Model (DEM) data derived from the Shuttle Radar Topography Mission (SRTM) dataset. This analysis attempts to derive an appropriate frequency signature for sections of the trail using Fast Fourier Fourier Transform (FFT) on elevation profiles filtered by the Continuous Wavelet Transform (CWT). The correlations between these signatures are then analyzed using Singular Value Decomposition (SVD) to identify similarities between sections of these trails.
+# Thru-hike terrain analysis: Is the PCT, CDT, or AT better?
+
+This analysis compares the terrain along three major long-distance thru-hike trails in the United
+States to identify areas of geological complexity. The terrain is characterized based on Digital
+Elevation Model (DEM) data derived from the Shuttle Radar Topography Mission (SRTM) dataset.
+This analysis attempts to derive an appropriate frequency signature for sections of the trail using
+Fast Fourier Fourier Transform (FFT) on elevation profiles filtered by the Continuous Wavelet
+Transform (CWT). These signatures are then analyzed using Singular Value Decomposition (SVD)
+to identify the relative complexity of the terrain on these trails.
 
 [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/micahg0/thru-hike-terrain-analysis/master)
 
