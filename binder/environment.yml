@@ -1,0 +1,18 @@
+  
+name: thru-hike-environment
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - pandas
+  - bokeh
+  - itkwidgets
+  - gdal
+  - shapely
+  - geopandas
+  - geoplot
+  - descartes
+  - selenium
+  - geckodriver
+  - firefox
